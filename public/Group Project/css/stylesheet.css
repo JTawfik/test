@@ -1,0 +1,128 @@
+
+/*///////// set parallax BG1 defaults*/
+.parallax_bg1 {
+	/*this is our main background image*/
+	background-image: url("group_students.jpg");
+		/*image needs to be darker & black and white*/
+
+	/*our minimum height per section*/
+	min-height: 500px;
+
+	/*parallax effect*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/*font*/
+	font-family: calibri;
+	font-color: #4a4b4c;
+}
+
+/* set navigation bar style*/
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+
+/*set parallax h1 defaults*/
+.parallax_bg1 h1{
+	font-size: 62px;
+	text-align: center;
+}
+
+/*set parallax h2 defaults*/
+.parallax_bg1 h2{
+	font-size: 36px;
+	text-align: center;
+}
+
+/*set parallax <p> defaults*/
+.parallax_bg1 p{
+	font-size: 18px;
+	text-align: center;
+	font-family: calibri light;
+}
+
+
+/*///////// set parallax BG2 defaults*/
+.parallax_bg2 {
+	/*this is our main background image*/
+	background-image: url("");
+
+	/*our minimum height per section*/
+	min-height: 500px;
+
+	/*parallax effect*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/*font*/
+	font-family: calibri;
+	font-color: #4a4b4c;
+}
+
+
+/*set parallax h1 defaults*/
+.parallax_bg2 h1{
+	font-size: 62px;
+	text-align: center;
+}
+
+/*set parallax h2 defaults*/
+.parallax_bg2 h2{
+	font-size: 36px;
+	text-align: center;
+}
+
+/*set parallax <p> defaults*/
+.parallax_bg2 p{
+	font-size: 18px;
+	text-align: center;
+	font-family: calibri light;
+}
+
+
+
+/*///////// set parallax VIDEO defaults*/
+.ParallaxVideo{ 
+    height: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+.ParallaxVideo video{ 
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: -999;
+}
+.ParallaxVideo h1 {
+  color: #fff;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* set text box style*/
+.cf {
+	font-family: Calibri;
+	font-size: 20px;
+	color: green;
+
+}
+.txt {
+	width: 700px; 
+	border-bottom-width: 1px ;
+	font-size: 15px; 
+	border-radius: 3px;
+}
+
+
+
+
+

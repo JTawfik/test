@@ -1,0 +1,179 @@
+<!---
+index for Group Project Business Page.
+By: Jimmy Tawfik and Michael Wood
+Business: School Website
+--->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BSSA School Website: Group Project</title>
+	<!---Import Bootstrap Styelsheet-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!---Import Animations--->
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+	<!--- Import CSS Stylesheet --->
+	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+	<!---Set Responsive design--->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!---Import JQuery Library--->
+	<script type="text/javascript" src="../jquery-1.8.3.js"></script>
+	<!---Import Javascript document--->
+	<script src="../javascript/javascript_group.js"></script>
+</head>
+<body>
+
+	<!-- Menu overlay -->
+	<div id="myNav" class="overlay">
+
+	  <!-- Button to close the overlay navigation -->
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	  <!-- Menu Content -->
+	  <div class="overlay-content">
+	  	<a href="index.html">Home</a>
+	    <a href="apply.html">Apply</a>
+	    <a href="index.html#courses">Courses</a>
+	    <a href="resources.html">Resources</a>
+	   	<a href="contactus.html">Contact Us</a>
+	  </div>
+	</div>
+
+
+
+	<!---set Parallax BG (people)--->
+	<div class="parallax_bg1">
+
+		<!---Navigation Button--->
+		<div class="button_position">
+			<span onclick="openNav()" style="color:#4a4b4c">☰</span>
+		</div>
+		<!---Landing Block - IMAGE + OVERLAY--->
+		<div style="color: #4a4b4c; background-color: ; text-align: center; padding: 150px 75px; text-align:justify;">
+			<h1><img src="http://bssa.nu/wp-content/uploads/2016/11/bssalogo1-300x295.png" height='200' style="opacity:0.8"></h1>
+		</div>
+
+		<!---Info Block--->
+		<div style="color: #777; background-color:white; text-align: center; padding: 50px 75px; text-align:justify;">
+			<h2>What is bssa?</h2>
+		<p style="padding-top: 17px">
+		In 2016 the B. Startup School Amsterdam – BSSA – opened its doors for 300 students as an answer to the growing demand for talent in the startup ecosystem. We noticed that there is a gap between the current education system and the industry. There are a ton of motivated and talented starters who just finished their bachelor’s or master’s degree. However, the industry still considers them to be too inexperienced. With our program, we aim to bridge this gap by providing graduates with the necessary skills the industry is asking for.<br>
+		<br>
+		Our program consists of an intensive three-month full-time course and a six-month traineeship. During the course, our students work closely together with current professionals from the industry to gain essential skills such as programming, UI/UX designing, growth hacking, digital innovation or digital content creation.<br>
+		<br>
+		We work together with some of the best education institutes worldwide from The United States, France, Sweden & The Netherlands to provide our students with the highest level of expertise.<br>
+		</p>
+		</div>
+
+
+	<!--end parallax container-->
+	</div>
+
+	<!---set Parallax BG (video)--->
+	<div class=parallax_bg2>
+		<!--Video Content goes here-->
+		<div class="ParallaxVideo">
+			<script>
+   				document.getElementById("myVideo").width=document.body.offsetWidth;
+			</script>
+		 	<video autoplay muted loop>
+			 	<source src="../videos/sample.mp4" type="video/mp4">
+			 	<source src="../videos/sample.webm" type="video/webm">
+		 	</video>
+
+		  	<!---Video Caption goes here--->
+		  	<h2>join 500+ students jumpstarting their careers</h2>
+
+		</div>
+
+
+		<!---Courses--->
+		<div style="color: #777; background-color:white; text-align: center; padding: 50px 75px; text-align:justify;" id="courses">
+			<h2>Upcoming Programs</h2>
+			
+
+			<!---breakout course containers--->
+			<div class="container" style="padding: 60px 40px 75px 40px">
+				<div class="row">
+
+					<!---Card 1--->
+					<div class="col-sm">
+						<div class="card" style="width: 18rem;">
+						  <img class="card-img-top" src="../images/learn2code.jpg" alt="image failure">
+						  <div class="card-body">
+						    <h5 class="card-title">Coding Fundamentals</h5>
+						    <p class="card-text" style="text-align: left">A quick 3 week course that teaches you the fundamentals of coding. Languages include: HTML, CSS, and JavaScript.</p>
+						    <a href="#" class="btn btn-primary">Apply</a>
+						  </div>
+						</div>
+					</div>
+
+
+					<!---Card 2--->
+					<div class="col-sm">
+						<div class="card" style="width: 18rem;">
+						  <img class="card-img-top" src="../images/openDay.jpg" alt="image failure">
+						  <div class="card-body">
+						    <h5 class="card-title">BSSA Open Day</h5>
+						    <p class="card-text" style="text-align: left">Come join us for an afternon open day. Get to know our lectures and ask questions about our programs in person</p>
+						    <a href="#" class="btn btn-primary">Apply</a>
+						  </div>
+						</div>
+					</div>
+
+
+
+					<!---Card 3--->
+					<div class="col-sm">
+						<div class="card" style="width: 18rem;">
+						  <img class="card-img-top" src="../images/agile.jpg" alt="image failure" style="height: auto">
+						  <div class="card-body">
+						    <h5 class="card-title">Introduction to AGILE</h5>
+						    <p class="card-text" style="text-align: left">A one week course which introduces you to one of the most common development methodlogies.</p>
+						    <a href="#" class="btn btn-primary">Apply</a>
+						  </div>
+						</div>
+					</div>
+
+
+			<!--Close row-->
+			</div>
+
+			<!--Close container-->
+			</div>
+
+		<!--close courses-->
+		</div>
+
+		<!--bottom/footer-->
+		<div style="color: white; background-color: #868889; text-align: left; padding: 25px; text-align: justify; height: 200px">
+
+			<!--bootstrap-->
+			<div class="container">
+			  <div class="row">
+			    <div class="col-sm">
+			      <p = style="text-align: left; font-size: 24px">Stay Informed</p>
+			      <form>
+			      	<input type="text" name="email" value="email">
+			      	<input type="submit" name="submit" value="submit">
+			      </form>
+			    </div>
+			</div>
+
+			
+				<div class="row">
+				    <div class="col-sm">
+				      <p style="text-align: left; padding-top: 5px;">Join BSSA's mailing list to stay up to date about all of our latests courses!</p>
+				    </div>
+				</div>
+
+
+		</div>
+
+	</div>
+	<!--end parallax container-->
+	</div>
+
+</body>
+</html>

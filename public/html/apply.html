@@ -1,0 +1,186 @@
+<!---
+index for Group Project Business Page.
+By: Jimmy Tawfik and Michael Wood
+Business: School Website
+--->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BSSA School Website: Group Project</title>
+	<!---Import Bootstrap Styelsheet-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!---Import Animations--->
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+	<!--- Import CSS Stylesheet --->
+	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+	<!---Set Responsive design--->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!---Import JQuery Library--->
+	<script type="text/javascript" src="../jquery-1.8.3.js"></script>
+	<!---Import Javascript document--->
+	<script src="../javascript/javascript_group.js"></script>
+</head>
+<body>
+
+	<!-- Menu overlay -->
+	<div id="myNav" class="overlay">
+
+	  <!-- Button to close the overlay navigation -->
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	  <!-- Menu Content -->
+	  <div class="overlay-content">
+	  	<a href="index.html">Home</a>
+	    <a href="apply.html">Apply</a>
+	    <a href="index.html#courses">Courses</a>
+	    <a href="resources.html">Resources</a>
+	   	<a href="contactus.html">Contact Us</a>
+	  </div>
+	</div>
+
+
+
+	<!---set Parallax BG (people)--->
+	<div class="parallax_bg1">
+
+		<!---Navigation Button--->
+		<div class="button_position">
+			<span onclick="openNav()" style="color:#4a4b4c">☰</span>
+		</div>
+		<!---Landing Block - IMAGE + OVERLAY--->
+		<div style="color: #4a4b4c; background-color: ; text-align: center; padding: 150px 75px; text-align:justify;">
+			<h1><img src="http://bssa.nu/wp-content/uploads/2016/11/bssalogo1-300x295.png" height='200' style="opacity:0.8"></h1>
+		</div>
+
+
+
+		<!---Info Block--->
+		<div style="color: #777; background-color:white; text-align: center; padding: 50px 75px; text-align:justify;">
+			<h2>Why we are dedicated to learn people how to code<span class="star">?</span>
+			</h2>
+
+<!--Container open!-->
+<div class="container">
+  
+  <!--Row open!-->
+  <div class="row">
+
+	<!--video Container open!-->
+	<div class="vc">
+
+
+			<!--video-->
+			<div style="padding: 45px 195px;">
+				<iframe width="700px" height="450px" src="https://www.youtube.com/embed/5TpxGjeuULg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+	<!--Video Container Close-->
+	</div>
+
+   <!--video row close!-->
+   </div>
+
+
+
+
+	<!---Info Block--->
+	<div style="color: #777; background-color:white; text-align: center; padding: 50px 75px; text-align:justify;">
+		<h2>A future as developer? Kickstart your career and apply now<span class="star">!</span>
+		</h2>
+
+		<!--row open!-->. 
+  		<div class="row">
+
+			<!--'txt' open!-->
+			<div class="txt">
+			
+			<!--First Name!-->
+			First Name<span class="star">*</span><br>
+			<input class="txt" type="text" id="fname" name="firstname" placeholder=""><br>
+			<br>
+			
+			<!--Last Name!-->
+			Last Name<span class="star">*</span><br>
+			<input class="txt" type="text" id="fname" name="lastname" placeholder=""><br>
+			<br>
+
+			<!--Phone!-->
+			Phone<span class="star">*</ ><br>
+			<input class="txt" type="text" id="fname" name="firstname" placeholder=""><br>
+			<br>
+
+			<!--Email-->
+			Email<span class="star">*</span><br>
+			<input class="txt" type="text" id="fname" name="firstname" placeholder=""><br>
+			<br>
+
+			<!--CV Upload-->
+			Upload your CV<br>
+			<input style="width:300px;" type="file" name="btn btn-primary" class="btn btn-primary"><br>
+			<br>
+
+			<!--Motivation!-->
+			Motivation<span class="star">*</span><br>
+			<input class="txt" type="textarea" id="fname" name="firstname" placeholder=""><br>
+			<br>
+			<!--Apply button!-->
+		    <a href="#" class="btn btn-primary">Apply
+		    </a><br>
+
+
+
+
+			<!---close 'txt' container--->
+			</div>
+
+
+	<!--Row Close-->
+	</div>
+
+	  <!--close container-->
+	</div>
+
+
+<!--end parallax container-->
+</div>
+
+
+<!--start contact page-->
+
+
+
+		<!--close courses-->
+		</div>
+
+		<!--bottom/footer-->
+		<div style="color: white; background-color: #868889; text-align: left; padding: 25px; text-align: justify; height: 200px">
+
+			<!--bootstrap-->
+			<div class="container">
+			  <div class="row">
+			    <div class="col-sm">
+			      <p = style="text-align: left; font-size: 24px">Stay Informed</p>
+			      <form>
+			      	<input type="text" name="email" value="email">
+			      	<input type="submit" name="submit" value="submit">
+			      </form>
+			    </div>
+			</div>
+
+			
+				<div class="row">
+				    <div class="col-sm">
+				      <p style="text-align: left; padding-top: 5px;">Join BSSA's mailing list to stay up to date about all of our latests courses!</p>
+				    </div>
+				</div>
+
+
+		</div>
+
+	</div>
+	<!--end parallax container-->
+	</div>
+
+</body>
+</html>
